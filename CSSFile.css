@@ -1,0 +1,60 @@
+*
+{
+	padding: 0 ;
+	margin: 0 ;
+}
+body
+{
+	box-sizing: border-box ;
+	font-family: georgia ;
+}
+.menu-bar
+{
+	text-align: center ;
+}
+.menu-bar ul
+{
+	display: inline-flex ; 
+	list-style: none ;
+	color: fff ;
+}
+.menu-bar ul li
+{
+	width: 250px ;
+	margin: 15px ;
+	padding: 15px ;
+}
+.AboutDocker
+{
+	display: flex ;
+	padding: 4% ;
+	align-item: center ;
+	background-color: rgb(2, 33, 68)
+}
+.image
+{
+	flex-basis: 40% ;
+	padding-right: 2% ;
+}
+.text
+{
+	font-family: georgia ;
+	color: fff ;
+}
+.AboutLW
+{
+	display: flex ;
+	padding: 2% ;
+	align-item: center ;
+	background-color: rgb(128, 128, 64, 0.3) ;
+}
+.image2
+{
+	flex-basis: 40% ;
+	padding-left: 2% ;
+}
+.Text2
+{
+	font-family: georgia ;
+}
+
